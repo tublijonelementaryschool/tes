@@ -82,20 +82,7 @@ class MyAgencyFooter extends HTMLElement{
 				</script>
 
 
-				<!-- philippine standard time script-->
-				<script id="gwt-pst-jsdk" src="./tublijon_files/gwtpst.js.download"></script><script type="text/javascript" id="gwt-pst">
-				(function(d, eId) {
-					var js, gjs = d.getElementById(eId);
-					js = d.createElement('script'); js.id = 'gwt-pst-jsdk';
-					js.src = "//gwhs.i.gov.ph/pst/gwtpst.js?"+new Date().getTime();
-					gjs.parentNode.insertBefore(js, gjs);
-				}(document, 'gwt-pst'));
-
-				var gwtpstReady = function(){
-					var firstPst = new gwtpstTime('pst-time');
-				}
-				</script><script id="gwt-pst-jsonp-time" src="./tublijon_files/jsonp_unix.php"></script>
-				<!-- end philippine standard time -->
+				
 
 				<script type="text/javascript" id="eael-general-js-extra">
 				/* <![CDATA[ */

@@ -269,7 +269,7 @@ var ahc_ajax_front = {"ajax_url":"","page_id":"6","page_title":"Home","post_type
 										</li>
 										<li class="is-submenu-parent-item is-submenu-item is-drilldown-submenu-item" role="menu-item"><a href="">Annual Procurement Plan</a>
 										</li>
-										<li id="menu-item-13312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13312 is-submenu-item is-drilldown-submenu-item" role="menuitem"><a href="">APP CSE</a>							
+										<li id="menu-item-13312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13312 is-submenu-item is-drilldown-submenu-item" role="menuitem"><a href="https://drive.google.com/file/d/1cjj1a9A8B294GEnXYdq2DDHl6qB5Qy8n/preview" width="640" height="480" allow="autoplay" target="_blank">APP CSE</a>									
 										</li>
 										<li id="menu-item-13311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13311 is-submenu-item is-drilldown-submenu-item" role="menuitem"><a href="">APP Non- CSE</a>							
 										</li>
@@ -436,7 +436,7 @@ var ahc_ajax_front = {"ajax_url":"","page_id":"6","page_title":"Home","post_type
 										</li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children 								has-dropdown menu-item-152 is-dropdown-submenu-parent is-submenu-item 								is-dropdown-submenu-item opens-right" role="menuitem" aria-haspopup="true" aria-expanded="								false" aria-label="Annual Procurement Plan">	<a>Annual Procurement Plan</a>
 											<ul class="dropdown vertical menu submenu is-dropdown-submenu" data-submenu="" aria-hidden="								true" role="menu">
-												<li class="menu-item menu-item-type-post_type 	menu-item-object-page menu-item-13312 									is-submenu-item is-dropdown-submenu-item	" role="menuitem"><a >APP CSE</a>
+												<li class="menu-item menu-item-type-post_type 	menu-item-object-page menu-item-13312 									is-submenu-item is-dropdown-submenu-item	" role="menuitem"><a href="https://drive.google.com/file/d/1cjj1a9A8B294GEnXYdq2DDHl6qB5Qy8n/preview" width="640" height="480" allow="autoplay" target="_blank">APP CSE</a>		
 												</li>
 												<li class="menu-item menu-item-type-post_type 	menu-item-object-page menu-item-13311 									is-submenu-item is-dropdown-submenu-item	" role="menuitem"><a >APP Non- CSE</a>
 												</li>
@@ -631,6 +631,21 @@ var ahc_ajax_front = {"ajax_url":"","page_id":"6","page_title":"Home","post_type
 
 				
 <my-agencyfooter></my-agencyfooter>
+
+	<!-- philippine standard time script-->
+	<script id="gwt-pst-jsdk" src="./tublijon_files/gwtpst.js.download"></script><script type="text/javascript" id="gwt-pst">
+	(function(d, eId) {
+		var js, gjs = d.getElementById(eId);
+		js = d.createElement('script'); js.id = 'gwt-pst-jsdk';
+		js.src = "//gwhs.i.gov.ph/pst/gwtpst.js?"+new Date().getTime();
+		gjs.parentNode.insertBefore(js, gjs);
+	}(document, 'gwt-pst'));
+
+	var gwtpstReady = function(){
+		var firstPst = new gwtpstTime('pst-time');
+	}
+	</script><script id="gwt-pst-jsonp-time" src="./tublijon_files/jsonp_unix.php"></script>
+	<!-- end philippine standard time -->
 	
 	<link rel="stylesheet" id="font-awesome-5-all-css" href="./tublijon_files/all.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="font-awesome-4-shim-css" href="./tublijon_files/v4-shims.min.css" type="text/css" media="all">
